@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Boostrap</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Framework CSS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">boostrap CSS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Agregar Proyectos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Break Point</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Container</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Grillas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Utilies</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Componentes</a>
+          </li>
+        </ul>
+
+
+
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="row mt-5">
+        <div class="col-6">
+            <h2>Framework CSS</h2>
+            <p>Son esquemas o marcos de trabajo, (un conjunto de herramientas) que nos ayudan a optimizar los tiempos, <strong>no necesariamente un framework se asocia al desarrollo software</strong>, nos permiten ahorra tiempo, pero nosotros tenemos que adaptarnos <strong>a como esta diseñado el framework y trabajar en base a la forma y estructura de trabajo</strong></p>
+        </div>
+        
+        <div class="col-6">
+            <h2>¿Que es Boostrap?</h2>
+
+            <p>Bootstrap es un framework CSS, el cual nos permite implementar estilos css a una pagina web de <strong>manera rápida NO NECESARIAMENTE ESCALABLE</strong>, a diferencia de una implementación nativo, <strong>nosotros debemos adaptanos a forma de trabajo de Boostrap</strong>, todo su estructura, tambien es personalizable, pero se recomienda no hacerlo, </p>
+        </div>
+    </div>
+    <div class="row mt-5">
+        <div class="col-6">
+            <h3>Añadir Proyectos</h3>
+            <p>Existen 3 manera de iniciar un proyecto con Bootstrap:</p>
+            <ul>
+                <li>Descargar Directamene los componentes manualmente y vincularlo</li>
+                <li>Usan CDN (Son links que se van a anexar a nuestro html que se van a conectar con Boostrap</li>
+                <li>Atravez de NPM (Gestion de Paquetes)</li>
+            </ul>
+        </div>
+        <div class="col-6">
+            <h3>Break Points</h3>
+            <p>Son puntos en resolución en el cual podemos establecer un cambios en la propiedades css, se usan para realizar diseños reponsivos en nuestra paginas web</p>
+            <p>Los puntos de interrupción son anchos personalizables que determinan cómo se comporta su diseño responsivo en todos los tamaños de dispositivos o ventanas gráficas en Bootstrap.</p>
+            <p>Boostrap maneja 6 estilos</p>
+
+            <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Breakpoint</th>
+                    <th scope="col">Class</th>
+                    <th scope="col">Dimensions</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Extra small</td>
+                    <td>None</td>
+                    <td>576px</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Small</td>
+                    <td>sm</td>
+                    <td>≥576px</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>Medium</td>
+                    <td>md</td>
+                    <td>≥768px</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">4</th>
+                    <td>Large</td>
+                    <td>lg</td>
+                    <td>≥992px</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">5</th>
+                    <td>Extra large</td>
+                    <td>xl</td>
+                    <td>≥1200px</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">6</th>
+                    <td>Extra extra large</td>
+                    <td>xxl</td>
+                    <td>≥1400px</td>
+                  </tr>
+                  
+                </tbody>
+              </table>
+        </div>
+    </div>
+
+    <div class="row mt-5">
+        <div class="col-6">
+            <h3>Container</h3>
+            <p>Es un contenedor que nos permite limitar el contenido de nuestros elementos evitando que estos <strong>se desborden</strong></p>
+            <p>Tambien es conocido con Space Safe cuando se utiliza en css nativo se agregan las siguientes propiedades</p>
+            <ul>
+                <li>max-width</li>
+                <li>padding-lef</li>
+                <li>padding-right</li>
+                <li>margin-lef:auto</li>
+                <li>margin-right:auto</li>
+                <li>margin:0 auto</li>
+            </ul>
+        </div>
+        <div class="col-6">
+            <h3>Grillas</h3>
+
+            <p>Las grillas es una forma de posicionar los elementos utilizando flexbox, Bootstrap utilizar un sistema de posicionamiento de 12 columnas dentro de una fila</p>
+
+            <h3>Ejemplo</h3>
+
+            <div class="row mt-4">
+                <div class="col">1</div>
+                <div class="col">2</div>
+                <div class="col">3</div>
+                <div class="col">4</div>
+            </div>
+
+            <p>Para este ejemplo se coloco 4 numeros dividos en 12 columnas , donde cada columna ocupa 3 espacios, el sistema de grid no puede sobrepasar las 12 columnas</p>
+        </div>
+    </div>
+    
+    <div class="row">
+        <div class="col-6">
+            <h3>Utilies</h3>
+            <p>Son pequeñas clases que nos permiten agregar propiedades CSS rapidamente a elementos , y es compatible con dispositivos moviles</p>
+
+            <h4>Ejemplo</h4>
+
+            <p>Para este caso se creo un contenedor padre que contiene 2 hijos y con el utilite <strong>d-flex</strong> se le dio un displey flex a los elementos para que esten en un sola fila y se le coloco al padre un <strong>mt-5</strong> un margin top 5 para que se separe de los otras cajas</p>
+
+            <div class="padre d-flex mt-5">
+                <div class="hijo">Hijo 1</div>
+                <div class="hijo">Hijo 2</div>
+                <div class="hijo">Hijo 3</div>
+            </div>
+        </div>
+        <div class="col-6">
+            <h3>Componentes Bootstrap</h3>
+
+            <p>Son elementos visuales y de interfaz de usuario ya definidos por el framework y que se pueden utilizar como por ejemplo</p>
+            <ul>
+                <li>Navbar</li>
+                <li>Jumbotron</li>
+                <li>Cards</li>
+                <li>Forms </li>
+                <li>Buttons</li>
+                <li>Modals </li>
+                <li>Carousel </li>
+                <li>Alerts</li>
+                <li>Dropdowns </li>
+                <li>Pagination </li>
+                <li>Navs y Tabs </li>
+                <li>Tooltips y Popovers</li>
+            </ul>
+
+            <h4>Ejemplo de Card</h4>
+            <div class="row">
+                <div class="col-6">
+                    <div class="card" style="width: 18rem;">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-6">
+                    <h4>Ejemplo de Alerts</h4>
+                    <div class="alert alert-primary" role="alert">
+                        A simple primary alert—check it out!
+                      </div>
+                      <div class="alert alert-secondary" role="alert">
+                        A simple secondary alert—check it out!
+                      </div>
+                      <div class="alert alert-success" role="alert">
+                        A simple success alert—check it out!
+                      </div>
+                      <div class="alert alert-danger" role="alert">
+                        A simple danger alert—check it out!
+                      </div>
+                      <div class="alert alert-warning" role="alert">
+                        A simple warning alert—check it out!
+                      </div>
+                      <div class="alert alert-info" role="alert">
+                        A simple info alert—check it out!
+                      </div>
+                      <div class="alert alert-light" role="alert">
+                        A simple light alert—check it out!
+                      </div>
+                      <div class="alert alert-dark" role="alert">
+                        A simple dark alert—check it out!
+                      </div>
+                </div>
+            </div>
+         
+        </div>
+    </div>
+  </div>
+   
+
+
+</body>
+</html>
